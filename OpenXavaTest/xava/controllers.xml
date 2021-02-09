@@ -773,6 +773,10 @@
 		<extends controller="Typical"/>
 		<action name="filterByDate" 
 			class="org.openxava.test.actions.FilterInvoice4ByDateAction"/>
+		<!-- tmp ini -->
+		<action name="markAsPaid" in-each-row="true"
+			class="org.openxava.test.actions.MarkInvoice4AsPaidAction"/>		
+		<!-- tmp fin -->	
 	</controller>			
 	
 	<controller name="Invoice5">
